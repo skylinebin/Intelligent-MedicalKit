@@ -1,0 +1,17 @@
+#ifndef __LED_H
+#define __LED_H	 
+#include "sys.h"
+//////////////////////////////////////////////////////////////////////////////////	 
+							  
+////////////////////////////////////////////////////////////////////////////////// 
+#define LED0 PAout(2)// PA2 only it
+#define LED1 PEout(5)// PE5	
+#define LED2 PEout(6)// PE6	
+#define LED3 PEout(7)// PE7
+#define LED4 PEout(8)// PE8	
+
+
+void LED_Init(void);//≥ı ºªØ
+
+		 				    
+#endif
